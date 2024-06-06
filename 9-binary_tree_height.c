@@ -9,6 +9,7 @@
 size_t count(const binary_tree_t *tree)
 {
 	size_t  i;
+
 	if (tree == NULL)
 		return (0);
 	i = count(tree->left);
