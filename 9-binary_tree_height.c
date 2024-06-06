@@ -3,12 +3,11 @@
 /**
  * count - count heght
  * @tree: node
- * @i: count up
  * Return: height
  */
 size_t count(const binary_tree_t *tree)
 {
-	size_t  i;
+	size_t  i, j;
 
 	if (tree == NULL)
 		return (0);
